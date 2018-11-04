@@ -1,0 +1,7 @@
+.card-deck div.card {
+  flex: 0 0 30.6%;
+  margin-bottom: 2rem;
+}
+.card-deck {
+  margin: 0 -30px;
+}

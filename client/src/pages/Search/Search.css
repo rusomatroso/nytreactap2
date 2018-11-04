@@ -1,0 +1,10 @@
+.mainSearch {
+    padding: 1rem;
+    background: #fdfdfd;
+    margin: 0 -15px;
+    border-radius: 0.25rem;
+    margin-bottom: 2rem;
+}
+.alert {
+    margin: 0 -15px;
+}

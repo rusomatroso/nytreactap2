@@ -1,0 +1,34 @@
+{
+  "name": "nyt-search-app",
+  "main": "server.js",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "moment": "^2.22.2",
+    "mongoose": "^5.3.9",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-moment": "^0.8.3",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js --ignore client",
+    "client": "node scripts/start-client.js",
+    "build": "node scripts/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
