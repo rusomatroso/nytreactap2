@@ -11,6 +11,6 @@ export default {
         return axios.post("/api/articles", articleData);
     },
     findArticles: function (topic, startYear, endYear) {
-        return axios.get("https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=a5eb3d09ba5f4986879af7d2f3d021f4&q=" + topic + "&begin_date=" + startYear + "0101&end_date=" + endYear + "1231");
+        return axios.get("https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=XNUlZP3jgP8BnKEYuJYwWkbbGHI89pF4&q=" + topic + "&begin_date=" + startYear + "0101&end_date=" + endYear + "1231");
     }
 };
