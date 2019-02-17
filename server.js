@@ -12,7 +12,7 @@ app.use(express.static("client/build"));
 app.use(routes);
 
 mongoose.Promise = Promise;
-mongoose.connect("mongodb://testuser:password1@ds151293.mlab.com:51293/nyt-article-search");
+mongoose.connect("mongodb://testuser:password1@ds139295.mlab.com:39295/heroku_nz62sfq8");
 var db = mongoose.connection;
 
 
